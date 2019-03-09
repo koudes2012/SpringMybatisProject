@@ -1,0 +1,8 @@
+create table person (
+	id int auto_increment,
+	name varchar(50),
+	age int,
+	address varchar(200),
+	birthday varchar(50),
+	primary key (id)
+)
